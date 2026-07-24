@@ -39,6 +39,7 @@ let b2 = Number(prompt("Bài 7 (ax² + bx + c = 0) - Nhập b:"));
 let c2 = Number(prompt("Bài 7 (ax² + bx + c = 0) - Nhập c:"));
 
 if (a2 === 0) {
+    if (b2 === 0) {
         alert(c2 === 0 ? "Phương trình vô số nghiệm." : "Phương trình vô nghiệm.");
     } else {
         alert(`Phương trình có 1 nghiệm x = ${-c2 / b2}`);
